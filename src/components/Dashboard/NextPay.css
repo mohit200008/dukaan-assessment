@@ -1,0 +1,96 @@
+.next-pay-container {
+    width: 22%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(26, 24, 30, 0.04);
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+    border: 3px solid black; 
+  }
+  
+  .info-container {
+    align-self: stretch;
+    height: 78px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+  }
+  
+  .info-row {
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .info-text {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .label,
+  .amount,
+  .order-info {
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+  
+  .icon,
+  .order-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .icon > div,
+  .order-icon > div {
+    width: 14.40px;
+    height: 14.40px;
+    left: 0.80px;
+    top: 0.80px;
+    position: absolute;
+    background: #4D4D4D;
+  }
+  
+  .amount {
+    color: #1A181E;
+    font-size: 32px;
+    font-family: 'Galano Grotesque';
+    font-weight: 500;
+    line-height: 38px;
+  }
+  
+  .label {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .order-info {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  
+  .order-info > div {
+    font-size: 16px;
+    font-family: 'Galano Grotesque';
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 24px;
+  }
+  
+.img {
+  background: white;
+}

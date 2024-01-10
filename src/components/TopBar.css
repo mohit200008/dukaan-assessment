@@ -1,0 +1,152 @@
+.top-bar {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+    border-bottom: 1px #D9D9D9 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+  }
+  
+  .title-section {
+    flex: 1 1 0;
+    height: 28px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+  }
+  
+  .title {
+    color: #1A181E;
+    font-size: 20px;
+    font-family: Galano Grotesque;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word;
+  }
+  
+  .info-section {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+  }
+  
+  .info-icon {
+    width: 14px;
+    height: 14px;
+    position: relative;
+  }
+  
+  .info-icon > div {
+    width: 12.60px;
+    height: 12.60px;
+    left: 0.70px;
+    top: 0.70px;
+    position: absolute;
+    background: #4D4D4D;
+  }
+  
+  .info-text {
+    color: #4D4D4D;
+    font-size: 12px;
+    font-family: Galano Grotesque;
+    font-weight: 400;
+    line-height: 16px;
+    word-wrap: break-word;
+  }
+  
+  .search-section {
+    width: 400px;
+    align-self: stretch;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #F2F2F2;
+    border-radius: 6px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .search-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .search-icon > div {
+    width: 15.37px;
+    height: 15.07px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #808080;
+  }
+  
+  .search-input {
+    color: #808080;
+    font-size: 15px;
+    font-family: Galano Grotesque;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 5px; /* Adjust padding as needed */
+  }
+  
+  .user-section-top {
+    flex: 1 1 0;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    background: white;
+    display: flex;
+  }
+  
+  .user-avatar {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+    margin-right: 40px;
+
+  }
+  
+  .avatar-circle {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: #E6E6E6;
+    border-radius: 9999px;
+  }
+  
+  .avatar-inner {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+  }
+  
+  .avatar-inner-m {
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+    left: 10px;
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  
+ 

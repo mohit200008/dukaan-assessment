@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body, html {
+  height: 100vh; 
+  margin: -1px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
+  height: 100vh; 
+}
+
+.left-container {
+  height: 100vh; 
+  width: 20%;
+}
+
+.right-container {
+  height: 100vh; 
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-container, .right-container {
+    width: 100%;
+  }
+}
+
+.amounts {
+  display: flex;
+  gap: 30px; 
+  padding: 25px;
+  flex-direction: row;
+}
+
+.transaction-header {
+  color: #1A181E;
+  font-size: 20px;
+  font-family: 'Galano Grotesque';
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+  margin-top: 15px;
+
+}
+
+
+.payout-box {
+  margin-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #E6E6E6;
+  border-radius: 40px;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  display: inline-flex;
+}
+
+.payout-text {
+  color: #808080;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.payout-box-b {
+  margin-left: 8px;
+  margin-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #146EB4;
+  border-radius: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.payout-text-b {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
 }
